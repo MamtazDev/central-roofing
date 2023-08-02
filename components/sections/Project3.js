@@ -1,10 +1,10 @@
 import Link from "next/link";
-import project1 from "../../public/assets/img/project/new/new1.PNG";
-import project2 from "../../public/assets/img/project/new/new2.PNG";
-import project3 from "../../public/assets/img/project/new/new3.PNG";
-import project4 from "../../public/assets/img/project/new/new4.PNG";
-import project5 from "../../public/assets/img/project/new/new5.PNG";
-import project6 from "../../public/assets/img/project/new/new6.PNG";
+// import project1 from "../../public/assets/img/project/new/new1.PNG";
+// import project2 from "../../public/assets/img/project/new/new2.PNG";
+// import project3 from "../../public/assets/img/project/new/new3.PNG";
+// import project4 from "../../public/assets/img/project/new/new4.PNG";
+// import project5 from "../../public/assets/img/project/new/new5.PNG";
+// import project6 from "../../public/assets/img/project/new/new6.PNG";
 
 export default function Project3() {
   return (
@@ -35,7 +35,11 @@ export default function Project3() {
               <div className="project-item-two">
                 <div className="project-thumb-two">
                   <Link href="/project-details">
-                    <img src={project1.src} height={417} alt="" />
+                    <img
+                      src="/assets/img/project/new/new1.PNG"
+                      height={417}
+                      alt=""
+                    />
                   </Link>
                 </div>
                 <div className="project-content-two">
@@ -53,7 +57,11 @@ export default function Project3() {
               <div className="project-item-two">
                 <div className="project-thumb-two">
                   <Link href="/project-details">
-                    <img src={project2.src} height={417} alt="" />
+                    <img
+                      src="/assets/img/project/new/new2.PNG"
+                      height={417}
+                      alt=""
+                    />
                   </Link>
                 </div>
                 <div className="project-content-two">
@@ -71,7 +79,11 @@ export default function Project3() {
               <div className="project-item-two">
                 <div className="project-thumb-two">
                   <Link href="/project-details">
-                    <img src={project3.src} height={417} alt="" />
+                    <img
+                      src="/assets/img/project/new/new3.PNG"
+                      height={417}
+                      alt=""
+                    />
                   </Link>
                 </div>
                 <div className="project-content-two">
@@ -89,7 +101,11 @@ export default function Project3() {
               <div className="project-item-two">
                 <div className="project-thumb-two">
                   <Link href="/project-details">
-                    <img src={project4.src} height={417} alt="" />
+                    <img
+                      src="/assets/img/project/new/new4.PNG"
+                      height={417}
+                      alt=""
+                    />
                   </Link>
                 </div>
                 <div className="project-content-two">
@@ -107,7 +123,11 @@ export default function Project3() {
               <div className="project-item-two">
                 <div className="project-thumb-two">
                   <Link href="/project-details">
-                    <img src={project5.src} height={417} alt="" />
+                    <img
+                      src="/assets/img/project/new/new5.PNG"
+                      height={417}
+                      alt=""
+                    />
                   </Link>
                 </div>
                 <div className="project-content-two">
@@ -125,7 +145,11 @@ export default function Project3() {
               <div className="project-item-two">
                 <div className="project-thumb-two">
                   <Link href="/project-details">
-                    <img src={project6.src} height={417} alt="" />
+                    <img
+                      src="/assets/img/project/new/new6.PNG"
+                      height={417}
+                      alt=""
+                    />
                   </Link>
                 </div>
                 <div className="project-content-two">
