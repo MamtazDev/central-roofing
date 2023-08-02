@@ -35,12 +35,7 @@ export default function Project3() {
               <div className="project-item-two">
                 <div className="project-thumb-two">
                   <Link href="/project-details">
-                    <img
-                      // src="/assets/img/project/h3_project_img01.jpg"
-                      src="/assets/img/project/new/new1.PNG"
-                      height={417}
-                      alt=""
-                    />
+                    <img src={project1.src} height={417} alt="" />
                   </Link>
                 </div>
                 <div className="project-content-two">
@@ -58,12 +53,7 @@ export default function Project3() {
               <div className="project-item-two">
                 <div className="project-thumb-two">
                   <Link href="/project-details">
-                    <img
-                      // src="/assets/img/project/h3_project_img02.jpg"
-                      src="/assets/img/project/new/new2.png"
-                      height={417}
-                      alt=""
-                    />
+                    <img src={project2.src} height={417} alt="" />
                   </Link>
                 </div>
                 <div className="project-content-two">
@@ -81,12 +71,7 @@ export default function Project3() {
               <div className="project-item-two">
                 <div className="project-thumb-two">
                   <Link href="/project-details">
-                    <img
-                      // src="/assets/img/project/h3_project_img03.jpg"
-                      src="/assets/img/project/new/new3.png"
-                      height={417}
-                      alt=""
-                    />
+                    <img src={project3.src} height={417} alt="" />
                   </Link>
                 </div>
                 <div className="project-content-two">
@@ -104,12 +89,7 @@ export default function Project3() {
               <div className="project-item-two">
                 <div className="project-thumb-two">
                   <Link href="/project-details">
-                    <img
-                      // src="/assets/img/project/h3_project_img04.jpg"
-                      src="/assets/img/project/new/new4.png"
-                      height={417}
-                      alt=""
-                    />
+                    <img src={project4.src} height={417} alt="" />
                   </Link>
                 </div>
                 <div className="project-content-two">
@@ -127,12 +107,7 @@ export default function Project3() {
               <div className="project-item-two">
                 <div className="project-thumb-two">
                   <Link href="/project-details">
-                    <img
-                      // src="/assets/img/project/h3_project_img05.jpg"
-                      src="/assets/img/project/new/new5.png"
-                      height={417}
-                      alt=""
-                    />
+                    <img src={project5.src} height={417} alt="" />
                   </Link>
                 </div>
                 <div className="project-content-two">
@@ -150,12 +125,7 @@ export default function Project3() {
               <div className="project-item-two">
                 <div className="project-thumb-two">
                   <Link href="/project-details">
-                    <img
-                      // src="/assets/img/project/h3_project_img06.jpg"
-                      src="/assets/img/project/new/new6.png"
-                      height={417}
-                      alt=""
-                    />
+                    <img src={project6.src} height={417} alt="" />
                   </Link>
                 </div>
                 <div className="project-content-two">
