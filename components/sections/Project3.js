@@ -1,4 +1,10 @@
 import Link from "next/link";
+import project1 from "../../public/assets/img/project/new/new1.PNG";
+import project2 from "../../public/assets/img/project/new/new2.PNG";
+import project3 from "../../public/assets/img/project/new/new3.PNG";
+import project4 from "../../public/assets/img/project/new/new4.PNG";
+import project5 from "../../public/assets/img/project/new/new5.PNG";
+import project6 from "../../public/assets/img/project/new/new6.PNG";
 
 export default function Project3() {
   return (
@@ -31,7 +37,7 @@ export default function Project3() {
                   <Link href="/project-details">
                     <img
                       // src="/assets/img/project/h3_project_img01.jpg"
-                      src="/assets/img/project/new/new1.png"
+                      src="/assets/img/project/new/new1.PNG"
                       height={417}
                       alt=""
                     />
