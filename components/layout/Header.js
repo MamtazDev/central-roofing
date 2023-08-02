@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import Sidebar from "./Sidebar";
+import logo from "../../public/assets/img/logo/Logo.jpg";
 
 export default function Header({ headerCls, headerTop }) {
   const [scroll, setScroll] = useState(0);
@@ -116,7 +117,7 @@ export default function Header({ headerCls, headerTop }) {
                   <nav className="menu-nav">
                     <div className="logo different-logo">
                       <Link href="/">
-                        <img src="/assets/img/logo/logo.jpg" alt="Logo" />
+                        <img src={logo.src} alt="Logo" />
                       </Link>
                     </div>
                     <div className="logo d-none">
@@ -129,9 +130,7 @@ export default function Header({ headerCls, headerTop }) {
                       <ul className="navigation">
                         <li>
                           {/* <Link href="https://centralroofingsystem.com/"> */}
-                          <Link href="/">
-                            Home
-                          </Link>
+                          <Link href="/">Home</Link>
                         </li>
                         <li>
                           <Link href="/about">About us</Link>
