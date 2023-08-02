@@ -24,7 +24,7 @@ export default function Services2() {
                   <Link href="/services-details">
                     <img
                       // src="/assets/img/services/h3_services_img01.jpg"
-                      src="/assets/img/services/new2.png"
+                      src="/assets/img/services/new2.PNG"
                       height={350}
                       alt=""
                     />
@@ -54,7 +54,7 @@ export default function Services2() {
                   <Link href="/services-details">
                     <img
                       // src="/assets/img/services/h3_services_img02.jpg"
-                      src="/assets/img/services/new1.png"
+                      src="/assets/img/services/new1.PNG"
                       height={350}
                       alt=""
                     />
