@@ -36,6 +36,7 @@ export default function Project3() {
                 <div className="project-thumb-two">
                   <Link href="/project-details">
                     <img
+                      style={{ objectFit: "cover" }}
                       src="/assets/img/project/new/new1.PNG"
                       height={417}
                       alt=""
@@ -58,6 +59,7 @@ export default function Project3() {
                 <div className="project-thumb-two">
                   <Link href="/project-details">
                     <img
+                      style={{ objectFit: "cover" }}
                       src="/assets/img/project/new/new2.PNG"
                       height={417}
                       alt=""
@@ -80,6 +82,7 @@ export default function Project3() {
                 <div className="project-thumb-two">
                   <Link href="/project-details">
                     <img
+                      style={{ objectFit: "cover" }}
                       src="/assets/img/project/new/new3.PNG"
                       height={417}
                       alt=""
@@ -102,6 +105,7 @@ export default function Project3() {
                 <div className="project-thumb-two">
                   <Link href="/project-details">
                     <img
+                      style={{ objectFit: "cover" }}
                       src="/assets/img/project/new/new4.PNG"
                       height={417}
                       alt=""
@@ -124,6 +128,7 @@ export default function Project3() {
                 <div className="project-thumb-two">
                   <Link href="/project-details">
                     <img
+                      style={{ objectFit: "cover" }}
                       src="/assets/img/project/new/new5.PNG"
                       height={417}
                       alt=""
@@ -146,6 +151,7 @@ export default function Project3() {
                 <div className="project-thumb-two">
                   <Link href="/project-details">
                     <img
+                      style={{ objectFit: "cover" }}
                       src="/assets/img/project/new/new6.PNG"
                       height={417}
                       alt=""
