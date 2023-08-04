@@ -116,12 +116,12 @@ export default function Header({ headerCls, headerTop }) {
                   <nav className="menu-nav">
                     <div className="logo different-logo">
                       <Link href="/">
-                        <img src="/assets/img/logo/logo.jpg" alt="Logo" />
+                        <img src="/assets/img/logo/new-logo.png" alt="Logo" />
                       </Link>
                     </div>
                     <div className="logo d-none">
                       <Link href="/">
-                        <img src="/assets/img/logo/logo.jpg" alt="Logo" />
+                        <img src="/assets/img/logo/new-logo.png" alt="Logo" />
                       </Link>
                     </div>
 
