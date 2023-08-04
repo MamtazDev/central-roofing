@@ -171,7 +171,7 @@ export default function Header({ headerCls, headerTop }) {
                     </div>
                     <div className="nav-logo">
                       <Link href="/">
-                        <img src="/assets/img/logo/logo_02.png" alt="Logo" />
+                        <img src="/assets/img/logo/new-logo.png" alt="Logo" />
                       </Link>
                     </div>
                     <div className="menu-outer">
