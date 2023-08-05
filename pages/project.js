@@ -22,7 +22,7 @@ export default function Project() {
                       <img
                         height={400}
                         style={{ objectFit: "cover" }}
-                        src="/assets/img/project/new/new1.png"
+                        src="/assets/img/project/new/new1.PNG"
                         alt=""
                       />
                     </Link>
@@ -45,7 +45,7 @@ export default function Project() {
                       <img
                         height={400}
                         style={{ objectFit: "cover" }}
-                        src="/assets/img/project/new/new2.png"
+                        src="/assets/img/project/new/new2.PNG"
                         alt=""
                       />
                     </Link>
@@ -68,7 +68,7 @@ export default function Project() {
                       <img
                         height={400}
                         style={{ objectFit: "cover" }}
-                        src="/assets/img/project/new/new3.png"
+                        src="/assets/img/project/new/new3.PNG"
                         alt=""
                       />
                     </Link>
@@ -91,7 +91,7 @@ export default function Project() {
                       <img
                         height={400}
                         style={{ objectFit: "cover" }}
-                        src="/assets/img/project/new/new4.png"
+                        src="/assets/img/project/new/new4.PNG"
                         alt=""
                       />
                     </Link>
@@ -114,7 +114,7 @@ export default function Project() {
                       <img
                         height={400}
                         style={{ objectFit: "cover" }}
-                        src="/assets/img/project/new/new5.png"
+                        src="/assets/img/project/new/new5.PNG"
                         alt=""
                       />
                     </Link>
@@ -137,7 +137,7 @@ export default function Project() {
                       <img
                         height={400}
                         style={{ objectFit: "cover" }}
-                        src="/assets/img/project/new/new6.png"
+                        src="/assets/img/project/new/new6.PNG"
                         alt=""
                       />
                     </Link>
