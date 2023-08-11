@@ -1,41 +1,49 @@
-import Link from "next/link"
-import { useState } from "react"
+import Link from "next/link";
+import { useState } from "react";
 
 export default function Sidebar() {
-    const [isActive, setIsActive] = useState({
-        status: false,
-        key: "",
-    })
+  const [isActive, setIsActive] = useState({
+    status: false,
+    key: "",
+  });
 
-    const handleToggle = (key) => {
-        if (isActive.key === key) {
-            setIsActive({
-                status: false,
-            })
-        } else {
-            setIsActive({
-                status: true,
-                key,
-            })
-        }
+  const handleToggle = (key) => {
+    if (isActive.key === key) {
+      setIsActive({
+        status: false,
+      });
+    } else {
+      setIsActive({
+        status: true,
+        key,
+      });
     }
-    return (
-        <>
-            <ul className="navigation">
-                <li className="menu-item-has-children"><Link href="#">Home</Link>
-                    <ul className="sub-menu" style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}>
+  };
+  return (
+    <>
+      <ul className="navigation">
+        <li className="menu-item-has-children">
+          <Link href="/">Home</Link>
+          {/* <ul className="sub-menu" style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}>
                         <li><Link href="/">Home One</Link></li>
                   
-                    </ul>
-                    <div className="dropdown-btn" onClick={() => handleToggle(1)}><span className="fas fa-angle-down" /></div></li>
-                <li><Link href="/about">About us</Link></li>
-                <li className="menu-item-has-children"><Link href="#">Services</Link>
-                    <ul className="sub-menu" style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>
+                    </ul> */}
+          {/* <div className="dropdown-btn" onClick={() => handleToggle(1)}><span className="fas fa-angle-down" /></div> */}
+        </li>
+        <li>
+          <Link href="/about">About us</Link>
+        </li>
+        <li className="menu-item-has-children">
+          <Link href="/services">Services</Link>
+
+          {/* <ul className="sub-menu" style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>
                         <li><Link href="/services">Services Page</Link></li>
                         <li><Link href="/services-details">Services Details</Link></li>
                     </ul>
-                    <div className="dropdown-btn" onClick={() => handleToggle(2)}><span className="fas fa-angle-down" /></div></li>
-                <li className="active menu-item-has-children"><Link href="#">Pages</Link>
+                    <div className="dropdown-btn" onClick={() => handleToggle(2)}><span className="fas fa-angle-down" />                    
+                    </div> */}
+        </li>
+        {/* <li className="active menu-item-has-children"><Link href="#">Pages</Link>
                     <ul className="sub-menu" style={{ display: `${isActive.key == 3 ? "block" : "none"}` }}>
                         <li><Link href="/project">Project Page</Link></li>
                         <li><Link href="/project-details">Project Details</Link></li>
@@ -49,10 +57,24 @@ export default function Sidebar() {
                         <li><Link href="/blog">Our Blog</Link></li>
                         <li><Link href="/blog-details">Blog Details</Link></li>
                     </ul>
-                    <div className="dropdown-btn" onClick={() => handleToggle(4)}><span className="fas fa-angle-down" /></div></li>
-                <li><Link href="/contact">Contact</Link></li>
-            </ul>
+                    <div className="dropdown-btn" onClick={() => handleToggle(4)}><span className="fas fa-angle-down" /></div></li> */}
+        <li>
+          <Link href="/project">Projects</Link>
+        </li>
+        <li>
+          <Link href="/contact">Contact</Link>
+        </li>
 
-        </>
-    )
+        <li className="header-btn text-white">
+          <Link
+            target="_blank"
+            href="https://wa.me/<number>"
+            className="btn text-white"
+          >
+            Get a Quoute
+          </Link>
+        </li>
+      </ul>
+    </>
+  );
 }
